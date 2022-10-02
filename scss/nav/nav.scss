@@ -1,0 +1,29 @@
+nav {
+  width: 75%;
+  max-height: 90px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 3px black;
+
+  .logo {
+    width: 96px;
+    height: 42px;
+  }
+
+  .links {
+    width: 50%;
+    height: 42px;
+    display: flex;
+    justify-content: space-around;
+
+    a {
+      text-decoration: none;
+      font-family: gill-sans;
+      font-size: 20px;
+      color: black;
+    }
+  }
+}
